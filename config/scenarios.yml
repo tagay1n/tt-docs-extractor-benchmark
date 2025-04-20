@@ -1,0 +1,27 @@
+gemini:
+  version:
+    - gemini-2.5-flash-preview-04-17
+    - gemini-2.5-pro-preview-03-25
+    - gemini-2.0-flash
+    - gemini-1.5-pro
+
+  batch_sizes:
+    - 1
+    - 2
+    - 4
+    - 8
+    - 16
+    - 32
+
+  input_types:
+    - pdf
+    - images
+
+  shots:
+    - zero
+    - one
+    - few
+
+  output_format:
+    - html
+    - markdown
